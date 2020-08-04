@@ -18,7 +18,3 @@ output "endpoint" {
   description = "Redis primary endpoint"
 }
 
-output "host" {
-  value       = module.dns.hostname
-  description = "Redis hostname"
-}
